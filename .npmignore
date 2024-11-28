@@ -1,0 +1,10 @@
+# .npmignore
+
+# 忽略 TypeScript 源代码文件
+src/**/*.ts
+
+# 忽略测试文件
+tests/
+tsconfig.json
+node_modules
+src

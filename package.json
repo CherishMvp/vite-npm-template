@@ -1,0 +1,27 @@
+{
+  "name": "cherish-test-vite",
+  "version": "1.0.0",
+  "description": "一个使用vite开发npm包且支持ts的简易模板",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "types": "dist/types/index.d.ts",
+  "scripts": {
+    "build": "vite build && tsc --declaration --emitDeclarationOnly --outDir dist/types",
+    "dev": "vite"
+
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.7.2",
+    "vite": "^6.0.1",
+    "@types/node": "^22.10.1"
+  },
+  "dependencies": {
+   
+  }
+}
